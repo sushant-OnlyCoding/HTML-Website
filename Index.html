@@ -2,42 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="Style.css" rel="stylesheet">
-    <title>Home | Sushant Mudad</title>
-    
+    <title>Home | Adarsh Balika</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-<!-------Navbar-------->
-<header>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">ImDeveloper</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Vlogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">blogs</a>
             </li>
-          </ul>
-          <span class="navbar-text">
-            My Portfolio Website
-          </span>
-        </div>
-      </nav>
-</header>
+        </ul>
+    </nav>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <header class="hero">
+        <!--<img src="https://pbs.twimg.com/profile_images/1334791682781396995/azSKb0oH_400x400.jpg" />-->
+        <img class="hero-img"src="images/hero-image.svg" />
+        <h1 class="hero-heading">adarsh balika the <span class="heading-inverted">web developer</span></h1>
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML,CSS3,Git,JavaScript,NodeJS,ReactJS, Python, MySql and Web Hosting </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online </p>
+            <a class="link link-primary"href="/">Browse Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs, I like to document my journey of learning </p>
+            <a class="link link-secondary"href="/">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/singh-riya">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/RiyaSin04096373">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/singh-riya/">linkedIn</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
