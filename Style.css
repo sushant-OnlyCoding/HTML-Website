@@ -1,0 +1,18 @@
+.navbar{
+    border-bottom-left-radius: 1rem;
+    background-color: #52006A;
+}
+.navbar-brand{
+    color:white;
+    font-size: 1.5rem;;
+}
+.navbar-nav .nav-item .nav-link{
+    color:white;
+}
+.navbar-text{
+    color:rgb(252, 251, 250);
+    font-size:1.5rem;
+}
+.navbar-toggler-icon{
+    color:white;
+}
